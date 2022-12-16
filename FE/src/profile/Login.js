@@ -71,7 +71,13 @@ const Login = (props) => {
       <form>
         {/* <h3 className="title">Login Here</h3> */}
         <div className="logo-area">
-          <img className="logo-img" src={UNB_LOGO} height="70px" />
+          <img
+            className="logo-img"
+            src={
+              "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
+            }
+            height="70px"
+          />
         </div>
         <div className="google-button">
           <GoogleLogin

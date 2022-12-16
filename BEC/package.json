@@ -1,0 +1,51 @@
+{
+  "name": "cryptoprojectoauth",
+  "version": "1.0.0",
+  "description": "CS6355 Project implementing Google OAuth Social Login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "tsc && nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiyushPriyadarshiSigma/CryptoProjectOAuth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiyushPriyadarshiSigma/CryptoProjectOAuth/issues"
+  },
+  "homepage": "https://github.com/PiyushPriyadarshiSigma/CryptoProjectOAuth#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.5",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "10.8.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^8.7.0",
+    "invariant": "^2.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^1.0.3",
+    "moment": "^2.29.1",
+    "pg": "^8.7.1",
+    "sha256": "^0.2.0",
+    "short-uuid": "^4.2.0",
+    "standard-http-error": "^2.0.1",
+    "ts-invariant": "^0.9.4",
+    "uuid": "^8.3.2"
+  }
+}
